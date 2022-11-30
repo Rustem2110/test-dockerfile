@@ -6,4 +6,4 @@ RUN apt full-upgrade -y
 RUN apt install -y haproxy ssh node
 RUN apt install -y ruby-full rubygems
 RUN apt autoclean -y &amp;&amp; rm -rf /var/cache/apt/*
-CMD [&quot;/opt/coolproject/code/start.sh&quot;]
+CMD ["/opt/coolproject/code/start.sh"]
